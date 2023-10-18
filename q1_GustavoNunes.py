@@ -1,7 +1,7 @@
 accounts_data = {
-    '123456': 1000,
-    '234567': 2000,
-    '345678': 1500,
+    'gustavo': 25000,
+    'caio': 700,
+    'lucas': 9000,
 }
 
 account_handler = lambda account_number, data: (
