@@ -17,7 +17,7 @@ processo = lambda user, lsenha: not users.get(user) == lsenha
 nome_usuario = usuario()
 senha_usuario = senha()
 #----------------------------------
-path = "../q2_GustavoNunes/q2_GustavoNunes.txt" 
+path = "./q2_GustavoNunes/q2_GustavoNunes.txt" 
 
 # Texto para ser escrito no arquivo em caso de sucesso e em caso de falha
 texto_sucesso = [f"Nome:{nome_usuario}", f"Senha:{senha_usuario}", "Login feito com sucesso"]
